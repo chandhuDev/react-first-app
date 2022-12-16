@@ -1,10 +1,13 @@
 import React from 'react'
+import {Routes,Route,useNavigate} from 'react-router-dom'
+import {Login,Home} from './components/index'
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <Routes>
+        <Route path="login" element={<Login/>} />
+        <Route path="/*" element={<Home/>} />
+    </Routes>
   )
 }
 
