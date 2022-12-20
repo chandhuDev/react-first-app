@@ -6,6 +6,9 @@ module.exports = {
       margin: {
         320: '320px',
       },
+      colors: {
+        'regal-blue': '#243c5a',
+      },
       width: {
         190: '190px',
         275: '275px',
@@ -43,11 +46,14 @@ module.exports = {
         primary: '#FAFAFA',
         secColor: '#efefef',
         navColor: '#BEBEBE',
+        
       },
       backgroundColor: {
         mainColor: '#FBF8F9',
         secondaryColor: '#F0F0F0',
-        blackOverlay: 'rgba(0, 0 ,0 ,0.7)',
+        blackOverlay: 'rgba(0, 0 ,0 ,0.6)',
+        transparantColor:'rgba(255,255,255,0.6)',
+        gradient:'rgba(0,0,0,0.4)',
       },
       keyframes: {
         'slide-in': {
