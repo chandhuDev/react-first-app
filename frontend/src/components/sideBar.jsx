@@ -53,13 +53,10 @@ return (
         onClick={handleCloseSideBar}
         >
           <div className="flex my-5 mb-3 gap-2 p-2 items-center bg-white  rounded-lg shadow-lg mx-3">
-          <img src={user.picture} alt="user-profile" className='w-10 h-10 rounded-full'/>
+          <img src={user.picture} alt="user-profile" className='w-8 h-8 rounded-full'/>
           <p >{user.name}</p>
           </div>
-         
-          
-       
-        </Link>
+         </Link>
       )}
     </div>
   )
