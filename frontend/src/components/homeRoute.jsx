@@ -49,7 +49,7 @@ useEffect(()=>{
             <img src={logo} alt="logo" className="w-28" />
           </Link>
           <Link to={`user-profile/${user.sub}`}>
-          <img src={pic} alt="logo"  className='ml-1 w-20 rounded-full '/>
+          <img src={pic} alt="logo"  className='ml-1 w-14 rounded-full '/>
           </Link>
         </div>
         {toggleSideBar && (
