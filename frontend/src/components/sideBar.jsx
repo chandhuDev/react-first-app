@@ -9,11 +9,15 @@ const isNotActiveStyles='flex ietms-center px-5 gap-3 text-gray-500 hover:text-b
 const isActiveStyles='flex items-center px-5 gap-3 font-bold border-r-2 border-black  transition-all duration-200 ease-in-out uppercase'
 
 const categoryArray=[
-  {name:'Animals',},
-  {name:'Places'},
-  {name:'Electronics'},
-  {name:'Chocolates'},
-  {name:'Beauty'}
+  {name:'Wallpapers'},
+  {name:'Travel'},
+  {name:'Nature'},
+  {name:'Animals'},
+  {name:'Experimental'},
+  {name:'3d-Renders'},
+  {name:'Textures-Patterns'},
+  {name:'Street-Photography'},
+  {name:'Fashion-Beauty'}
 ]
 
 const sideBar = ({user,closeToggle}) => {
