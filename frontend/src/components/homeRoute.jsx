@@ -20,16 +20,7 @@ const HomeRoute = () => {
   const scrollRef=useRef(null)
 
 
-  const getImages=async ()=>{
-       const response=await fetch(`https://api.unsplash.com/photos/?client_id=ejq3XBjQOab2nvLTdZSGgPYHwrcCKvbrPZNukA6s9SM`)
-       const responseData=await response.json()
-       setImages(responseData)
-  }
   
- useEffect(()=>{
-    console.log('rendered in second useeffect')
-    //getImages()
-  },[])
 
   
 useEffect(()=>{
