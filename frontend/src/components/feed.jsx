@@ -21,7 +21,7 @@ const Feed = () => {
    const response=await fetch(`https://api.unsplash.com/topics/${placeholder}/?client_id=ejq3XBjQOab2nvLTdZSGgPYHwrcCKvbrPZNukA6s9SM`)
    const responseData=await response.json()
    console.log(responseData)
-   setImageUser(responseData)
+   setImageUser(responseData.cover_photo)
    const allImages= responseData.preview_photos.map((image)=>{
     return {
      url:image.urls.raw,
@@ -59,6 +59,7 @@ useEffect(()=>{
    }else{
     getImages()
    }
+   
    setLoading(false)
    
  },[categoryId])
